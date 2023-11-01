@@ -13,6 +13,10 @@ const MulherSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  citacao: {
+    type: String,
+    required: true,
+  },
 });
 
 module.exports = mongoose.model("diva", MulherSchema);
