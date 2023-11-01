@@ -3,7 +3,7 @@ require("dotenv").config();
 
 async function conectaBancoDeDados() {
   try {
-    console.log("Conexõ com o banco de dados iniciou");
+    console.log("Conexao com o banco de dados iniciou");
 
     await mongoose.connect(process.env.MONGO_URL);
 
